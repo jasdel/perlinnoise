@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/jasondelponte/golang-utils/seqgen/perlinnoise"
+	"github.com/jasondelponte/perlinnoise"
 )
 
 var height = flag.Int("h", 40, "Height of the display")
