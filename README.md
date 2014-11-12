@@ -1,4 +1,4 @@
-# Perlin Noise #
+### Perlin Noise
 Library for generating Perlin Noise in Go.
 
     go get github.com/jasdel/perlinnoise
@@ -7,7 +7,7 @@ Library for generating Perlin Noise in Go.
 * Also based on https://github.com/sol-prog/Perlin_Noise for random permutation genration.
 
 
-# Usage #
+### Usage
     ./perlinnoise/main.go provides sample usage.
 
     // Create with seed which will generate permutations randomly from the seed
@@ -20,5 +20,5 @@ Library for generating Perlin Noise in Go.
     pn.Noise(x, y, z)
 
 
-# License #
+### License
 BSD 2 clause
